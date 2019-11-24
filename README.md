@@ -5,5 +5,5 @@ All data was stored only in 1 table for demo purposes
 The forms were validated with [wajahatkarim3 validation library](https://github.com/wajahatkarim3/EasyValidation)
 
 
-..* Android MVC architecture
-..* Listener and events demo
+1. Android MVC architecture
+2. Listener and events demo
