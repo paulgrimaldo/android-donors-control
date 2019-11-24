@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="17dp"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/AppTheme.UserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Juan perez" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteDonor"
+            style="@style/AppTheme.Icons"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="@string/ic_delete_donor_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnEditDonor"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tvName"
+            app:srcCompat="@drawable/ic_delete" />
+
+        <ImageButton
+            android:id="@+id/btnEditDonor"
+            style="@style/AppTheme.Icons"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:contentDescription="@string/ic_edit_donor_description"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_edit" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tvId"
+        style="@style/AppTheme.UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="ID: 123" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        style="@style/AppTheme.UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Edad: 35 anios" />
+
+    <TextView
+        android:id="@+id/tvBlood"
+        style="@style/AppTheme.UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Sangre tipo O RH-" />
+
+    <TextView
+        android:id="@+id/tvWeight"
+        style="@style/AppTheme.UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Peso: 80Kg" />
+
+    <TextView
+        android:id="@+id/tvHeight"
+        style="@style/AppTheme.UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Altura: 185cm" />
+</LinearLayout>

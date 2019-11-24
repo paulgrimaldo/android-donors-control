@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Control de Donantes</string>
+    <string name="welcome_to_donors_control">Bienvenidos al control de donantes</string>
+    <string name="login_to_continue">Inicia sesión para empezar</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="new_user">Nuevo usuario</string>
+    <string name="repeat_password">Repetir contraseña</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="the_field_can_not_be_empty">El campo no puede estar vacio</string>
+    <string name="password_confirmation_error">Los password no coinciden</string>
+    <string name="ic_cancel_description">Cancel search</string>
+    <string name="ic_search_description">Realizar busqueda</string>
+    <string name="default_search_input_message">Id del donante a buscar</string>
+    <string name="ic_delete_donor_description">Eliminar donante</string>
+    <string name="ic_edit_donor_description">Editar donante</string>
+    <string name="new_donor">Nuevo donante</string>
+    <string name="input_id_description">Nro. de Identificacion</string>
+    <string name="last_name">Apellido</string>
+    <string name="age">Edad</string>
+    <string name="weight">Peso (Kg)</string>
+    <string name="height">Altura (cm)</string>
+    <string name="new_donor_registered_successfully">Nuevo donante registrado con exito</string>
+    <string name="donor_deleted_successfully">Donante eliminado con exito</string>
+    <string name="donor_updated_successfully">Donante actualizado con exito</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="delete_donor_confirmation_message">Desea eliminar el donante?</string>
+    <string name="invalid_credentials">Credenciales invalidas</string>
+    <string name="user_registered_successfully">Usuario registrado con exito</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="close_session">Cerrar sesion</string>
+    <string name="delete_account">Eliminar cuenta</string>
+    <string name="account_deleted">Cuenta eliminada</string>
+    <string name="current_password">Contraseña actual</string>
+    <string name="user_password_changed_successfully">Contraseña actualizada con exito</string>
+    <string name="donor_not_found">Donante no encontrado</string>
+    <string name="bad_current_password">Su contraseña actual es incorrecta</string>
+    <string name="donor_already_exists">El donante ya existe en los registros</string>
+
+    <string-array name="blood_types">
+        <item>Tipo A</item>
+        <item>Tipo B</item>
+        <item>Tipo O</item>
+        <item>Tipo AB</item>
+    </string-array>
+    <string-array name="blood_desc">
+        <item>RH</item>
+        <item>RH +</item>
+        <item>RH -</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_change_password"
+        android:title="@string/change_password"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_delete_account"
+        android:title="@string/delete_account"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_close_session"
+        android:title="@string/close_session"
+        app:showAsAction="never" />
+</menu>
